@@ -150,7 +150,7 @@ int main()
 	std::fstream myfile("/home/prachi/PycharmProjects/untitled1/grids.txt", std::ios_base::in);
 
 	    float a;
-	    int src, dest;
+	    int src, dest,p,q;
 	    myfile >> src;
 	    myfile >> dest;
 	    int grid[30][30];
@@ -208,7 +208,13 @@ int main()
 	    	}
 	    }
 
-	
+	p = dest/30;
+	q = dest%30;
+	if(grid[p][q] == 0){
+		q++;
+		if(grid[p][q] == 1) break;
+	}
+	dest = p*30 + q;
 	dijkstra(graph, src, dest, grid);
 	cout<<endl; 
 	for(int i=0; i<=30; i++){
