@@ -1,0 +1,12 @@
+thanks a lot-my pleasure
+hello-hello.how can i help you?
+good morning-good morning
+whats your menu?-we have pizza,burger ,pasta amd coffee.
+what is the cost of coffee?-rupees 25
+what is the cost of pizza?-rupees 100
+what is the cost of pasta?'-rupees 50
+what is the cost of burger?-'rupees 30
+what all you have in pizza?-it contains veggies with cheese burst base and cheese topping.'
+what all you have in burger?-we have cheese and vag burger.'
+what all you have in pasta?-we have italian pasta with both red and white sauce.'
+what all you have in coffee?-it is made with milk and sugar.
